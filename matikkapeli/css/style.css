@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#container {
+    margin: 3em;
+}
+
+#calculate {
+    width: 200px; /* Adjust the width */
+    height: 50px; /* Adjust the height */
+    font-size: 20px; /* Make the text inside the button larger */
+    padding: 10px; /* Add padding inside the button */
+    background-color: #4CAF50; /* Add a background color (optional) */
+    color: white; /* Change text color (optional) */
+    border: none; /* Remove the default border */
+    border-radius: 5px; /* Optional: make the button corners rounded */
+    cursor: pointer; /* Show a pointer cursor when hovering over the button */
+}
+
+/* for removing the arrows from the input boxes */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
